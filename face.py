@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-image = cv2.imread('/home/nived/face_scrapper/face_scrapper/lol.jpg')
+image = cv2.imread('/home/user/lol.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
